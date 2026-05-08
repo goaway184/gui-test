@@ -1,0 +1,16 @@
+<script>
+  (function() {
+    // Replace this with the exact URL or Domain you want to allow
+    var allowedReferrer = "https://the-specific-link.com/page";
+
+    // Check if the referrer matches
+    if (document.referrer.indexOf(allowedReferrer) === -1) {
+      // If it doesn't match, send them elsewhere (e.g., Google or an error page)
+      window.location.href = "https://yourdomain.com/unauthorized.html";
+    }
+  })();
+</script>
+
+<body>
+  <h6>Funnyyys</h6>
+</body>
